@@ -1,0 +1,86 @@
+product: tides
+Erasing 'boot_a'                                   OKAY [  0.034s]
+Finished. Total time: 0.035s
+Erasing 'metadata'                                 OKAY [  0.027s]
+Finished. Total time: 0.027s
+Erasing 'misc'                                     OKAY [  0.030s]
+Finished. Total time: 0.031s
+partition-type:opcust: raw data
+Erasing 'opcust'                                   OKAY [  0.027s]
+Finished. Total time: 0.028s
+partition-type:opconfig: raw data
+Erasing 'opconfig'                                 OKAY [  0.026s]
+Finished. Total time: 0.027s
+Sending 'preloader_a' (325 KB)                     OKAY [  0.020s]
+Writing 'preloader_a'                              OKAY [  0.036s]
+Finished. Total time: 0.058s
+Sending 'preloader_b' (325 KB)                     OKAY [  0.021s]
+Writing 'preloader_b'                              OKAY [  0.034s]
+Finished. Total time: 0.057s
+Sending 'vbmeta_a' (8 KB)                          OKAY [  0.012s]
+Writing 'vbmeta_a'                                 OKAY [  0.007s]
+Finished. Total time: 0.020s
+Sending 'vbmeta_b' (8 KB)                          OKAY [  0.012s]
+Writing 'vbmeta_b'                                 OKAY [  0.006s]
+Finished. Total time: 0.019s
+Sending 'vbmeta_system_a' (4 KB)                   OKAY [  0.012s]
+Writing 'vbmeta_system_a'                          OKAY [  0.006s]
+Finished. Total time: 0.020s
+Sending 'vbmeta_system_b' (4 KB)                   OKAY [  0.012s]
+Writing 'vbmeta_system_b'                          OKAY [  0.006s]
+Finished. Total time: 0.020s
+Sending 'vbmeta_vendor_a' (4 KB)                   OKAY [  0.012s]
+Writing 'vbmeta_vendor_a'                          OKAY [  0.006s]
+Finished. Total time: 0.019s
+Sending 'vbmeta_vendor_b' (4 KB)                   OKAY [  0.011s]
+Writing 'vbmeta_vendor_b'                          OKAY [  0.006s]
+Finished. Total time: 0.019s
+Sending 'md1img_a' (56147 KB)                      OKAY [  1.812s]
+Writing 'md1img_a'                                 OKAY [  0.697s]
+Finished. Total time: 2.552s
+Sending 'md1img_b' (56147 KB)                      OKAY [  1.918s]
+Writing 'md1img_b'                                 OKAY [  0.699s]
+Finished. Total time: 2.662s
+Sending 'spmfw_a' (48 KB)                          OKAY [  0.013s]
+Writing 'spmfw_a'                                  OKAY [  0.008s]
+Finished. Total time: 0.023s
+Sending 'spmfw_b' (48 KB)                          OKAY [  0.013s]
+Writing 'spmfw_b'                                  OKAY [  0.007s]
+Finished. Total time: 0.022s
+Sending 'scp_a' (609 KB)                           OKAY [  0.027s]
+Writing 'scp_a'                                    OKAY [  0.014s]
+Finished. Total time: 0.043s
+Sending 'scp_b' (609 KB)                           OKAY [  0.028s]
+Writing 'scp_b'                                    OKAY [  0.015s]
+Finished. Total time: 0.044s
+Sending 'sspm_a' (491 KB)                          OKAY [  0.025s]
+Writing 'sspm_a'                                   OKAY [  0.013s]
+Finished. Total time: 0.040s
+Sending 'sspm_b' (491 KB)                          OKAY [  0.026s]
+Writing 'sspm_b'                                   OKAY [  0.013s]
+Finished. Total time: 0.041s
+Sending 'gz_a' (2983 KB)                           OKAY [  0.104s]
+Writing 'gz_a'                                     OKAY [  0.045s]
+Finished. Total time: 0.155s
+Sending 'gz_b' (2983 KB)                           OKAY [  0.114s]
+Writing 'gz_b'                                     OKAY [  0.074s]
+Finished. Total time: 0.193s
+Sending 'lk_a' (1750 KB)                           OKAY [  0.064s]
+Writing 'lk_a'                                     OKAY [  0.030s]
+Finished. Total time: 0.096s
+Sending 'lk_b' (1750 KB)                           OKAY [  0.064s]
+Writing 'lk_b'                                     OKAY [  0.030s]
+Finished. Total time: 0.096s
+Sending 'boot_a' (65536 KB)                        OKAY [  2.061s]
+Writing 'boot_a'                                   OKAY [  0.810s]
+Finished. Total time: 2.872s
+Sending 'boot_b' (65536 KB)                        OKAY [  2.008s]
+Writing 'boot_b'                                   OKAY [  0.814s]
+Finished. Total time: 2.823s
+Sending 'vendor_boot_a' (65536 KB)                 OKAY [  2.141s]
+Writing 'vendor_boot_a'                            OKAY [  0.846s]
+Finished. Total time: 2.988s
+Sending 'vendor_boot_b' (65536 KB)                 OKAY [  2.186s]
+Writing 'vendor_boot_b'                            FAILED (Status read failed (No such device))
+fastboot: error: Command failed
+Flash vendor_boot_b error

@@ -4,3 +4,6 @@ hyperos3_extracted/
 
 # ROM images — too large for GitHub (8+ GB)
 moon_global_images*
+
+# .deb packages
+*.deb
